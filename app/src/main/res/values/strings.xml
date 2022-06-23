@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">RoadmapsMobile</string>
+    <string name="app_nomeUser">Informe seu Nome aqui</string>
+    <string name="app_idadeUser">Informe sua Idade aqui</string>
+    <string name="app_emailUser">Informe seu Email aqui</string>
+    <string name="app_enderecoUser">Informe seu Endereço aqui</string>
+    <string name="app_senhaUser">Informe sua Senha aqui</string>
+    <string name="recife">Recife</string>
+
 </resources>
