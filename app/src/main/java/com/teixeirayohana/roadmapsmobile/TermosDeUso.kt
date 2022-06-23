@@ -1,5 +1,6 @@
 package com.teixeirayohana.roadmapsmobile
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.CheckBox
@@ -20,6 +21,7 @@ class TermosDeUso : AppCompatActivity() {
         continuar=findViewById(R.id.checkBox)
 
         proximo.setOnClickListener {
+            startActivity(Intent(this, MainCidadesActivity::class.java))
             Toast.makeText(this, "Clicado em Próximo", Toast.LENGTH_SHORT).show()
         }
 
