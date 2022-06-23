@@ -1,6 +1,7 @@
 package com.teixeirayohana.roadmapsmobile
 
 
+import android.content.Intent
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
@@ -31,6 +32,7 @@ class MainCadastroActivity : AppCompatActivity() {
         proximo  = findViewById(R.id.button);
 
         proximo.setOnClickListener {
+            startActivity(Intent(this,TermosDeUso::class.java))
             Toast.makeText(this, "Clicado em Próximo", Toast.LENGTH_SHORT).show()
 
         }
